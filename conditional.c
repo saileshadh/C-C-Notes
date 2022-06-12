@@ -1,11 +1,13 @@
 #include<stdio.h>
 int main(){
-    float r,c;
-    printf("enter radius");
-    scanf("%f",&r);
-    
-
-    printf("sum is %f",3.14*r*r);
-    
+    int age;
+    printf("enter age : ");
+    scanf("%d",&age);
+    if(age > 18){
+    printf("adult");
+    }
+    else{
+        printf("Young");
+    }
     return 0;
 }
