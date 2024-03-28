@@ -1,0 +1,63 @@
+2D array:
+Taking Input for Two Dimensional Array:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i, j;
+    int numbers[2][3];
+
+    // Input phase
+    cout << "Enter 6 numbers for the array: " << endl;
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 3; j++) {
+            cin >> numbers[i][j];
+        }
+    }
+
+    // Output phase
+    cout << "Array elements are: " << endl;
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 3; j++) {
+            cout << numbers[i][j] << " ";
+        }
+        cout << endl; // New line for each row
+    }
+
+    return 0;
+}
+###################################################
+
+
+3D array:
+Taking Input for Three Dimensional Array:
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i, j, k;
+    int numbers[2][3][4];
+
+    // Input phase
+    cout << "Enter 6 numbers for the array: " << endl;
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 3; j++) {
+            for (k=0;k<3;k++){
+            cin >> numbers[i][j][k];
+        }
+    }
+    }
+
+    // Output phase
+    cout << "Array elements are: " << endl;
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 3; j++) {
+            for (k=0;k<3;k++){
+            cout << numbers[i][j][k]<< " ";
+        }
+        cout << endl; 
+    }
+    }
+
+    return 0;
+}
