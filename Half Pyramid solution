@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int i, j,row;
+    cout<<"enter Row";
+    cin>>row;
+    for(i=1;i<=row;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            cout << "*" ;
+        }
+        cout<<'\n';
+    }
+        return 0;
+}
