@@ -1,0 +1,23 @@
+list even number in between 2 number:
+
+#include <iostream>
+using namespace std;
+
+int isEven(int);
+
+int main() {
+    int n1, n2;
+    cout << "Enter two numbers: ";
+    cin >> n1 >> n2;
+    
+    for (int i = n1; i <= n2; i++) {
+        if (isEven(i))
+            cout << i << " is even" << endl;
+    }
+
+    return 0;
+}
+
+int isEven(int i) {
+    return i % 2 == 0;
+}
